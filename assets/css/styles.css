@@ -12,11 +12,12 @@ a {
 body {
     background-color: #8758ff;
 }
+/* -------------- */
 .App {
-  text-align: center;
-  width: 442px;
-  min-height: 200px;
-  margin: 100px auto 0 auto;
+    text-align: center;
+    width: 442px;
+    min-height: 200px;
+    margin: 100px auto 0 auto;
 }
 .todo-app {
     display: flex;
@@ -53,14 +54,13 @@ h1 {
 }
 
 #todoList {
-    
 }
 
 p {
-  /* text-align: start; */
-  display: inline-flex;
-justify-content: space-between;
-align-items: center;
+    /* text-align: start; */
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
     border-radius: 5px;
     margin-bottom: 18px;
     margin-top: 15px;
@@ -71,14 +71,12 @@ align-items: center;
     cursor: pointer;
 }
 p + p {
-  margin-top: -3px;
+    margin-top: -3px;
 }
 
 .span-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
-
-

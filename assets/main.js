@@ -20,12 +20,16 @@ addButton.addEventListener("click", () => {
                     <span><i class="bi bi-trash delete-icon"></i></span>
                     </div>
                 `;
-        if (todoList.childElementCount === 0) {
-            todoList.appendChild(text);
-        } else {
-            const firstTodo = todoList.firstChild;
-            todoList.insertBefore(text, firstTodo);
-        }
+        todoList.appendChild(text);
+        //     if (todoList.childElementCount === 0) {
+        //     } else {
+        //         const firstTodo = todoList.firstChild;
+        //         todoList.insertBefore(text, firstTodo);
+        //     }
+
+        //     addEditDelete(text);
+        //     todoInput.value = "";
+        // }
 
         addEditDelete(text);
         todoInput.value = "";
